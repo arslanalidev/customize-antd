@@ -1,0 +1,72 @@
+.main-container {
+  height: 100vh;
+  width: 100%;
+  background: #f1f5f8;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .contact-support {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+  }
+
+  .form-container {
+    width: 700px;
+    color: #414d55;
+    .loginHeader {
+      display: flex;
+      justify-content: space-between;
+      // .bonsaHealth {
+      //   padding: 0px;
+      //   width: 30%;
+      // }
+      .gnp_logo {
+        max-height: 50px;
+        object-fit: contain;
+      }
+      .lyftSvg {
+        align-items: center;
+        // padding: 25px;
+      }
+      .rxDeliveryText {
+        font-family: "Roboto" sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        color: #414d55;
+      }
+    }
+
+    .login-form-labels {
+      font-family: "Roboto" sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 20px;
+      color: #414d55;
+    }
+    .ant-card-body {
+      padding: 50px 50px 30px 50px;
+    }
+    .ant-form-item-label {
+      text-align: left;
+    }
+    .btn-login {
+      float: right;
+    }
+    .login-form-forgot {
+      font-family: "Roboto" sans-serif;
+      color: #414d55;
+    }
+    .lbl-forgot-password {
+      margin-top: 10px;
+    }
+    .ant-input,
+    .ant-input-affix-wrapper {
+      background-color: #fafbfd;
+      border-radius: 5px;
+    }
+  }
+}

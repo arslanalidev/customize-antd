@@ -1,12 +1,15 @@
 import React from "react";
 import { Button } from "antd";
+
+import Routes from "./../routes";
+
 import "./App.less";
 
 function App() {
   return (
-    <div className="App">
-      <Button type="primary">Arslan</Button>
-    </div>
+    <>
+      <Routes />
+    </>
   );
 }
 
