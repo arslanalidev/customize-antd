@@ -1,0 +1,13 @@
+@import "../../../styles/base.scss";
+
+button#SupportButton {
+  padding-left: 24px;
+  span:nth-of-type(1) {
+    padding-left: 1rem;
+  }
+  &:hover,
+  &:focus {
+    background-color: $body-background;
+    color: #1890ff;
+  }
+}

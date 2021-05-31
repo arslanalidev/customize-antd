@@ -1,0 +1,38 @@
+// Top Bar Styles
+#TopBar {
+  .bonsaHealthLogo {
+    height: 40px;
+  }
+  .gnp_logo {
+    max-height: 50px;
+    object-fit: contain;
+  }
+  .lyftLogo {
+    height: 28px;
+  }
+  .searchInput {
+    border-radius: 8px;
+    min-width: 400px;
+    color: #54626c;
+    margin-top: 5px;
+  }
+  .profilePic {
+    p {
+      margin-bottom: 0;
+      padding-left: 1rem;
+      line-height: 1.3rem;
+    }
+    img {
+      border-radius: 8px;
+    }
+    p:nth-of-type(2) {
+      font-size: 0.7rem;
+    }
+    .ant-dropdown-link {
+      cursor: pointer;
+      .downArrow {
+        color: #bbcdd9;
+      }
+    }
+  }
+}

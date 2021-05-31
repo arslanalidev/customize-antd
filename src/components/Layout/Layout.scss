@@ -1,0 +1,48 @@
+@import './../../styles/base.scss';
+
+#MainLayout {
+  padding: 0 3rem;
+  background-color: $body-background;
+  min-height: 100vh;
+}
+.header {
+  background-color: $body-background !important;
+}
+
+#help-btn {
+  padding-left: 24px;
+  span:nth-of-type(2) {
+    padding-left: 1rem;
+    margin-left: 0;
+  }
+  &:hover,
+  &:focus {
+    background-color: $body-background;
+    color: #1890ff;
+  }
+}
+
+#contentLayout {
+  height: 100%;
+  section.ant-layout {
+    padding: 10px 0 !important;
+    background-color: $body-background;
+    min-height: 100% !important;
+    .ant-layout-content {
+      overflow-y: hidden;
+    }
+    #SideBarLayout {
+      background-color: $body-background;
+      min-height: 100%;
+      display: flex;
+
+      div.ant-layout-sider-children {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        align-items: flex-start;
+      }
+    }
+  }
+}

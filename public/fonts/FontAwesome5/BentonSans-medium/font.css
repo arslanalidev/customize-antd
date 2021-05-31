@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'BentonSans-Medium';
+  src: url('BentonSans-Medium.eot');
+  src: url('BentonSans-Medium.eot?#iefix') format('embedded-opentype'),
+       url('BentonSans-Medium.svg#BentonSans-Medium') format('svg'),
+       url('BentonSans-Medium.ttf') format('truetype'),
+       url('BentonSans-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BentonSans-Regular';
+  src: url('BentonSans-Regular.eot');
+  src: url('BentonSans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('BentonSans-Regular.svg#BentonSans-Regular') format('svg'),
+       url('BentonSans-Regular.ttf') format('truetype'),
+       url('BentonSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('Gotham-Bold.eot');
+  src: url('Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Gotham-Bold.svg#Gotham-Bold') format('svg'),
+       url('Gotham-Bold.ttf') format('truetype'),
+       url('Gotham-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('Gotham-Book.eot');
+  src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'),
+       url('Gotham-Book.svg#Gotham-Book') format('svg'),
+       url('Gotham-Book.ttf') format('truetype'),
+       url('Gotham-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('Gotham-Light.eot');
+  src: url('Gotham-Light.eot?#iefix') format('embedded-opentype'),
+       url('Gotham-Light.svg#Gotham-Light') format('svg'),
+       url('Gotham-Light.ttf') format('truetype'),
+       url('Gotham-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('Gotham-Medium.eot');
+  src: url('Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+       url('Gotham-Medium.svg#Gotham-Medium') format('svg'),
+       url('Gotham-Medium.ttf') format('truetype'),
+       url('Gotham-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'KlinicSlab-MediumItalic';
+  src: url('KlinicSlab-MediumItalic.eot');
+  src: url('KlinicSlab-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('KlinicSlab-MediumItalic.svg#KlinicSlab-MediumItalic') format('svg'),
+       url('KlinicSlab-MediumItalic.ttf') format('truetype'),
+       url('KlinicSlab-MediumItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+

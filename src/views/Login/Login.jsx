@@ -1,9 +1,7 @@
 import React from "react";
 import { Card, Form, Input, Button, Row, Col } from "antd";
-import { useLocation, useHistory } from "react-router-dom";
 import { LinkOutlined } from "@ant-design/icons";
 // import { getUserId } from '../../modules/common/utils';
-import _ from "lodash";
 
 import "./login.scss";
 
@@ -13,14 +11,6 @@ const layout = {
 };
 
 const Login = (props) => {
-  const location = useLocation();
-
-  // console.log(!_.isNil(getUserId()));
-
-  // if (!_.isNil(getUserId())) {
-  //   history.push('/dashboard');
-  // }
-
   const handleLogin = (values) => {
     // values.confirm && delete values.confirm;
     // props.signin({ ...values });

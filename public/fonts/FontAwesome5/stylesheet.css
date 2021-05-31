@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('FontAwesome.eot');
+    src: url('FontAwesome.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome.woff2') format('woff2'),
+        url('FontAwesome.woff') format('woff'),
+        url('FontAwesome.ttf') format('truetype'),
+        url('FontAwesome.svg#FontAwesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro';
+    src: url('FontAwesome5ProRegular.eot');
+    src: url('FontAwesome5ProRegular.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5ProRegular.woff2') format('woff2'),
+        url('FontAwesome5ProRegular.woff') format('woff'),
+        url('FontAwesome5ProRegular.ttf') format('truetype'),
+        url('FontAwesome5ProRegular.svg#FontAwesome5ProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Font Awesome 5 Pro Solid';
+    src: url('FontAwesome5ProSolid.eot');
+    src: url('FontAwesome5ProSolid.eot?#iefix') format('embedded-opentype'),
+        url('FontAwesome5ProSolid.woff2') format('woff2'),
+        url('FontAwesome5ProSolid.woff') format('woff'),
+        url('FontAwesome5ProSolid.ttf') format('truetype'),
+        url('FontAwesome5ProSolid.svg#FontAwesome5ProSolid') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'FontAwesome5ProLight';
+  src: url('FontAwesome5ProLight.eot');
+  src: url('FontAwesome5ProLight.eot?#iefix') format('embedded-opentype'),
+       url('FontAwesome5ProLight.svg#FontAwesome5ProLight') format('svg'),
+       url('FontAwesome5ProLight.ttf') format('truetype'),
+       url('FontAwesome5ProLight.woff') format('woff'),
+       url('FontAwesome5ProLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
